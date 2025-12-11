@@ -25,3 +25,13 @@ while cont < 100:
     cont = cont + 1
     print(cont)
 
+#realizar un programa que muestre la tabla de multiplicar dado un numero
+
+def tablaDeMultiplicar(numero):
+    numero = int(numero)
+    for i in range(1,11):
+        print(f"{numero}x{i}={numero*i}")
+
+num = input("Introduce un numero: ")
+tablaDeMultiplicar(num)
+
